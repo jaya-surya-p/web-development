@@ -1,0 +1,112 @@
+
+        body {
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #2d3a4b;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 8px #b0c4de;
+        }
+        form {
+            background: #fff;
+            max-width: 420px;
+            margin: 30px auto 20px auto;
+            padding: 32px 36px 24px 36px;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+            border: 1px solid #e3e3e3;
+        }
+        label {
+            font-weight: 600;
+            color: #34495e;
+            display: block;
+            margin-bottom: 6px;
+            margin-top: 16px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            border: 1px solid #bfc9d1;
+            border-radius: 6px;
+            background: #f7fafc;
+            font-size: 1rem;
+            transition: border 0.2s;
+        }
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="number"]:focus,
+        select:focus {
+            border: 1.5px solid #5b9bd5;
+            outline: none;
+            background: #eaf4fb;
+        }
+        button[type="submit"], input[type="reset"] {
+            background: linear-gradient(90deg, #5b9bd5 0%, #3a7bd5 100%);
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 28px;
+            font-size: 1rem;
+            font-weight: 600;
+            margin-right: 10px;
+            margin-top: 14px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(90, 155, 213, 0.08);
+            transition: background 0.2s, transform 0.2s;
+        }
+        button[type="submit"]:hover, input[type="reset"]:hover {
+            background: linear-gradient(90deg, #3a7bd5 0%, #5b9bd5 100%);
+            transform: translateY(-2px) scale(1.03);
+        }
+        p {
+            color: #2d3a4b;
+            font-size: 1.08rem;
+            margin: 30px auto 10px auto;
+            text-align: center;
+        }
+        h3 {
+            color: #3a7bd5;
+            margin-top: 30px;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        ul {
+            max-width: 420px;
+            margin: 0 auto 30px auto;
+            padding: 0 30px;
+            color: #34495e;
+            font-size: 1.05rem;
+        }
+        ul li {
+            margin-bottom: 7px;
+            padding-left: 4px;
+        }
+        a {
+            color: #3a7bd5;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #1e4e79;
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            form, ul {
+                max-width: 96vw;
+                padding: 18px 6vw;
+            }
+            h1, h3 {
+                font-size: 1.2rem;
+            }
+        }
+  
